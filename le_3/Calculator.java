@@ -17,6 +17,13 @@ public class Calculator{
 		this.result = a*b;
 	}
 	
+	public void expand(double a, double b){
+		this.result = a;
+		for (int i=1; i!=b; ++i){
+			this.result*=a;
+		}
+	}
+	
 	public double getResult(){
 		return this.result;
 	}

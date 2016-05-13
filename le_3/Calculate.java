@@ -14,7 +14,10 @@ public class Calculate{
 		System.out.println("Mult(*) = "+calc.getResult());
 		
 		calc.div(first, second);
-		System.out.println("Div(/) = "+calc.getResult());		
+		System.out.println("Div(/) = "+calc.getResult());
+
+		calc.expand(first, second);
+		System.out.println("Expand = "+calc.getResult());
 		
 		calc.clearResult();
 		
